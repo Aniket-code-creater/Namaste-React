@@ -1,3 +1,8 @@
-/node_modules 
-/dist 
-.parcel-cache 
+# Ignore node modules
+node_modules/
+
+# Ignore the build directory
+dist/
+
+# Ignore parcel cache
+.parcel-cache/
