@@ -1,1 +1,0 @@
-{"mappings":"ACAA,kBAGA","sources":["index.0b109d0c.css","index.css"],"sourcesContent":["#child1 {\n  color: red;\n}\n\n#child2 {\n  color: #00f;\n}\n/*# sourceMappingURL=index.0b109d0c.css.map */\n","#child1{\r\n    color: red;\r\n}\r\n#child2{\r\n    color: blue;\r\n}"],"names":[],"version":3,"file":"index.0b109d0c.css.map"}
