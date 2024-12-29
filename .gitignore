@@ -5,4 +5,4 @@
 /dist
 
 # Ignore parcel cache
-/.parcel-cache
+.parcel-cache
