@@ -1,14 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement(
-  "div",
-  { id: "parents" },
-  React.createElement("div", { id: "parent" }, [
-    React.createElement("h1", { id: "child1" }, "Hello i,m child"),
-    React.createElement("h2", { id: "child2" }, "Hello i,m child"),
-  ])
-);
+// React Elements
+//const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+
+//JSX - is not html in java-script, html like html
+//jsx engine can not able to read this but but parcel is converting this code into js and then send to jsx parcel - babel
+//babel transpile it into jsx
+const jsxheading = (
+  <h1 id="heading" className="jsxclass" tabIndex={1}>
+    Namaste React using jsx!
+  </h1>
+);
+
+root.render(jsxheading);
