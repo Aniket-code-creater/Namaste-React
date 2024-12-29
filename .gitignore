@@ -1,8 +1,8 @@
 # Ignore node modules
-node_modules/
+/node_modules
 
 # Ignore the build directory
-dist/
+/dist
 
 # Ignore parcel cache
-.parcel-cache/
+/.parcel-cache
