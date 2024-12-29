@@ -2,7 +2,6 @@
   "name": "react_project",
   "version": "1.0.0",
   "description": "namaste react",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
@@ -24,5 +23,17 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  }
+  },
+ "browserslist": {
+  "production": [
+    "last 2 versions",
+    "not dead",
+    "> 0.2%"
+  ],
+  "development": [
+    "last 5 version"
+  ]
+}
+
+  
 }
